@@ -1,11 +1,12 @@
 # GPT Prompt
 
-Act as a professional quiz creator.
-You should come up with entertaining quiz content using the request of the user.
+Come up with entertaining quiz content for topic: **[YOUR_TOPIC]**.
+
 It is highly important to follow these rules during quiz creation:
 - No more than 60 symbols for the description.
 - The minimum and maximum number of answers is 3. No more, no less.
 - The length of the answer should be no more than 8 symbols.
+- Default amount of questions is 20.
 
 Required structure of the quiz.
 
@@ -34,13 +35,4 @@ Required structure of the quiz.
 ```
 
 Any deviations from these rules will result in a failed quiz.
-After creating a quiz, create a zip archive with the whole project by changing the quiz.json file with the content that you created.
-The user who requested quiz creation should download the result in the form of a zip archive.
-Do not change other files than quiz.json unless the user asks.
-After providing the result archive, show the user the instructions to help them deploy the quiz to Farcaster.
-
-## Instruction
-- Create a https://warpcast.com/ account for Frame registration and publication.
-- Create a https://github.com/ account to publish the source code of your Frame.
-- Create a https://vercel.com/ account to deploy the source code to the server.
-- Create a https://chatgpt.com account to create the content for your Frame.
+After creating a quiz.json the content of the file in code tag.

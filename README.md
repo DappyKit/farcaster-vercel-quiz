@@ -14,7 +14,9 @@ The project is configured in Vercel through environment variables. Here is the l
 
 ## Create your custom Quiz with ChatGPT
 
-🆓 If you are a free ChatGPT user, you can generate a correct `quiz.json` file using this chat: https://chatgpt.com/g/g-UFjeBIRpE-dappykit-quiz-for-farcaster
+🆓 Use this [prompt](./GPT_PROMPT.md).
+
+🆓 If you are an **OLD** free ChatGPT user, you can generate a correct `quiz.json` file using this chat: https://chatgpt.com/g/g-UFjeBIRpE-dappykit-quiz-for-farcaster
 
 💸 If you have a ChatGPT subscription, you can generate the entire project with the quiz in this chat: https://chatgpt.com/g/g-mxV7W9Rgi-dappykit-quiz-frame-for-farcaster
 
