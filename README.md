@@ -12,6 +12,10 @@ The project is configured in Vercel through environment variables. Here is the l
 - `APP_TITLE` - **not required**. The title of your application.
 - `KV_NAMESPACE` - **not required**. A unique namespace for your application. Required only if multiple applications use the same KV storage.
 
+## Video Tutorial
+
+[![Watch the tutorial](https://img.youtube.com/vi/KMyvM20NDx8/0.jpg)](https://www.youtube.com/watch?v=KMyvM20NDx8)
+
 ## Create your custom Quiz with ChatGPT
 
 🆓 Use this [prompt](./GPT_PROMPT.md).
